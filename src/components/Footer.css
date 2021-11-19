@@ -1,0 +1,15 @@
+.Footer {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer button {
+  background-color: rgb(48, 107, 48);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}

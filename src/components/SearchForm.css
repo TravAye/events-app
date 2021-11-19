@@ -1,0 +1,46 @@
+.SearchForm .inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.SearchForm input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.SearchForm button {
+  border-radius: 10px;
+  margin: 10px;
+  width: 30%;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .SearchForm {
+    background-color: rgb(58, 95, 165);
+    border: 1px solid white;
+    margin: 10px;
+  }
+
+  .SearchForm .inputs {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .SearchForm .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .SearchForm button {
+    display: inline;
+    width: 150px;
+  }
+}

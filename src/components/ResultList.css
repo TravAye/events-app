@@ -1,0 +1,22 @@
+.ResultList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ResultList h2 {
+  color: #fa2e2e;
+}
+
+.ResultList .details-link {
+  color: #4aff33;
+  margin: 10px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ResultList ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,61 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: relative;
+}
+
+.Header h1 {
+  color: #fa2e2e;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+
+.Header .header-links {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.Header .zebra-pic {
+  width: 100px;
+}
+
+.Header .text {
+  position: absolute;
+  color: black;
+  z-index: 5;
+  right: 135px;
+  top: 30px;
+}
+
+.Header .bubble {
+  position: absolute;
+  z-index: 1;
+  right: 100px;
+  top: 20px;
+  width: 200px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .Header {
+    position: relative;
+
+    justify-content: center;
+    height: 105.8px;
+  }
+  .Header .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Header .zebra-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

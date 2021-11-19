@@ -1,0 +1,23 @@
+/* resets */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #404cba;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header {
+  margin: 0;
+}

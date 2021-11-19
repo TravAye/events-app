@@ -1,0 +1,24 @@
+.BucketList h2 {
+  color: #fa2e2e;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.BucketList .empty-bucket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BucketList .no-events {
+  margin: 10px;
+}
+
+.BucketList .form {
+  margin: 10px;
+}
+
+.BucketList input {
+  padding: 5px;
+}

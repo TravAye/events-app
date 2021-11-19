@@ -1,0 +1,51 @@
+.Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Details h2 {
+  color: #fa2e2e;
+  margin: 10px;
+}
+
+.Details img {
+  width: 300px;
+}
+
+.Details .info {
+  border: 2px dashed greenyellow;
+}
+
+.Details p {
+  margin: 10px;
+}
+
+.Details span {
+  font-weight: bold;
+}
+
+.Details .ticketmaster {
+  text-decoration: none;
+  color: tomato;
+  font-weight: bold;
+}
+
+.Details button {
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .Details .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+}
